@@ -1,0 +1,150 @@
+body {
+    background-image: linear-gradient(-225deg, #FF3CAC 0%, #562B7C 52%, #2B86C5 100%);
+    font-family: "sans-serif", "Arial, Helvetica";
+    color: beige;
+    height: auto;
+    width: 75%;
+    margin: 50px auto;
+}
+
+    h1 {
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 25px;
+    font-family: 'Oswald', "sans-serif";
+}
+
+main section{
+    box-sizing: border-box;
+    border: 3px solid beige;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+/* colors */
+
+h2 {
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-weight: 500;
+    font-size  : 30px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+p {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+li {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.color-usage p {
+    display: inline-block;
+    text-align: center;
+    width: 500px;
+    height: 50px;
+    padding: 25px 25px;
+    margin-bottom: 25px;
+}
+
+.gold {
+    background-color: #FFD700;
+}
+
+.dark-blue {
+    background-color: #0F16B0;
+}
+
+.wine-red {
+    background-color: #9F0B21;
+}
+
+.light-coral {
+    background-color: #F08080;
+}
+
+/* fonts */
+
+.fonts div{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin-bottom: 20px; 
+    margin-right: 150px;
+}
+
+.fonts p {
+    padding: 5px 5px;
+}
+
+.first-p {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.second-p {
+    font-weight: 700;
+    font-size: 30px
+}
+
+.third-p {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/* Text Styles */
+
+.dancing-script {
+    font-family: 'Dancing Script', "sans-serif";
+}
+
+.playfair-display {
+    font-family: 'Playfair Display', "sans-serif";
+}
+
+.oswald {
+    font-family: 'Oswald', "sans-serif";
+}
+
+.text-styles div {
+    margin-bottom: 20px;
+}
+
+.text-styles ul li {
+    position: relative;
+    left: 25px;
+    list-style:circle;
+}
+
+#paragraph-heading {
+    margin-bottom: 20px;
+}
+
+
+/* Text-Align */
+.text-align div {
+    margin-bottom: 10px;
+}
+
+.left {
+    text-align: left;
+}
+
+.mid {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}

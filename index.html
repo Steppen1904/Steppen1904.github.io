@@ -1,87 +1,106 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Cheatsheet</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="stylesheet.css" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Styleguide</title>
+    <link href="./css/reset.css" rel="stylesheet" />
+    <link href="./css/styles.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
     <header>
-      <h1>HTML Table Reference</h1>
+      <h1>Website Styleguide</h1>
     </header>
     <main>
-      <h2>Table Tags</h2>
-      <table>
-        <thead>
-          <tr>
-            <th scope="col">HTML Tag</th>
-            <th scope="col">Name</th>
-            <th scope="col">Description of Tags</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="code">&lt;table&gt;</td>
-            <td>Table</td>
-            <td>The wrapper element for all HTML tables.</td>
-          </tr>
-          <tr>
-            <td class="code">&lt;thead&gt;</td>
-            <td>Table Head</td>
-            <td>The set of rows defining the column headers in a table.</td>
-          </tr>
-          <tr>
-            <td class="code">&lt;tbody&gt;</td>
-            <td>Table Body</td>
-            <td>The set of rows containing actual table data.</td>
-          </tr>
-          <tr>
-            <td class="code">&lt;tr&gt;</td>
-            <td>Table Row</td>
-            <td>The table row container.</td>
-          </tr>
-          <tr>
-            <td class="code">&lt;td&gt;</td>
-            <td>Table Data</td>
-            <td>The table data container.</td>
-          </tr>
-          <tr>
-            <td class="code">&lt;tfoot&gt;</td>
-            <td>Table Foot</td>
-            <td>The set of rows defining the footer in a table</td>
-          </tr>
-        </tbody>
-      </table>
-      <h2>Table Attributes</h2>
-      <table>
-        <thead>
-          <tr>
-            <th scope="col">Attribute</th>
-            <th scope="col">Name</th>
-            <th scope="col">Description of Attributes</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="code">colspan</td>
-            <td>Column Span</td>
-            <td>Defines how many columns a td element should span.</td>
-          </tr>
-          <tr>
-            <td class="code">rowspan</td>
-            <td>Row Span</td>
-            <td>Defines how many rows a td element should span.</td>
-          </tr>
-        </tbody>
-      </table>
+      <section class="colors">
+        <h2>Colors</h2>
+        <div class="color-usage">
+          <p class="gold">Gold<br />#FFD700</p>
+          <p class="dark-blue">Dark Blue<br />#0F16B0</p>
+          <p class="wine-red">Wine Red<br />#9F0B21</p>
+          <p class="light-coral">LightCoral<br />#F08080</p>
+        </div>
+      </section>
+      <section class="fonts">
+        <h2>Fonts</h2>
+        <div class="dancing-script">
+          <h3>Dancing Script</h3>
+          <p class="first-p">Whereas recognition of the inherent dignity.</p>
+          <p class="second-p">Whereas recognition of the inherent dignity.</p>
+          <p class="third-p">Whereas recognition of the inherent dignity.</p>
+        </div>
+        <div class="playfair-display">
+          <h3>Playfair Display</h3>
+          <p class="first-p">It's a wonderful day to play in the garden.</p>
+          <p class="second-p">It's a wonderful day to play in the garden.</p>
+          <p class="third-p">It's a wonderful day to play in the garden.</p>
+        </div>
+        <div class="oswald">
+          <h3>Oswald</h3>
+          <p class="first-p">
+            Why does time stand still if you see your destiny.
+          </p>
+          <p class="second-p">
+            Why does time stand still if you see your destiny.
+          </p>
+          <p class="third-p">
+            Why does time stand still if you see your destiny.
+          </p>
+        </div>
+      </section>
+      <section class="text-styles">
+        <h2>Text Styles</h2>
+        <div class="heading-1">
+          <h1>H1: Main page heading</h1>
+          <ul>
+            <li>Font-weight: 700</li>
+            <li>Font-size: 50px</li>
+            <li>Font-family: Oswald</li>
+          </ul>
+        </div>
+        <div class="heading-2">
+          <h2>H2: Subheading</h2>
+          <ul>
+            <li>Font-weight: 600</li>
+            <li>Font-size: 35px</li>
+            <li>Font-family: sans-serif</li>
+          </ul>
+        </div>
+        <div class="heading-3">
+          <h3>H3: Subheading</h3>
+          <ul>
+            <li>Font-weight: 500</li>
+            <li>Font-size: 30px</li>
+            <li>Font-family: sans-serif</li>
+          </ul>
+        </div>
+        <div class="paragraph">
+          <p id="paragraph-heading">P: Paragraph text</p>
+          <ul>
+            <li>Font-weight: 400</li>
+            <li>Font-size: 25px</li>
+            <li>Font-family: sans-serif</li>
+          </ul>
+        </div>
+      </section>
+      <section class="text-align">
+        <h2>Text-align</h2>
+        <div class="left">
+          <p>This text is aligned left.</p>
+        </div>
+        <div class="mid">
+          <p>This text is aligned in the center.</p>
+        </div>
+        <div class="right">
+          <p>This text is aligned right.</p>
+        </div>
+      </section>
     </main>
   </body>
 </html>
