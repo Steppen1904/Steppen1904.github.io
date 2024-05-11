@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+}
+
+
+html, body {
+    background-color: black;
+    opacity: 0.9;
+    font-family: "PT Sans", Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+main {
+    margin-top: 70px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Dancing Script", Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Dancing Script", Helvetica, sans-serif;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Dancing Script", Helvetica, sans-serif;
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    line-height: 20px;
+}
+
+img {
+    height: 200px;
+    width: 300px;
+}
+
+header {
+    width: 100%;
+    height: 69px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.header img{
+    height: 50px;
+    width: 0.5 em;
+    margin-left: 10px;
+}
+
+.navbar {
+    display: inline-flex;
+    flex: 1 1 50px;
+    justify-content: right;
+    margin-right: 30px;
+}
+
+.nav-li {
+    display: inline-flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.nav {
+    text-decoration: underline;
+    color: seashell;
+}
+
+.mission {
+    background-image: url("../images/img-mission-background.jpg");
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.description {
+    background-color: black;
+    width: 1200px;
+    height: auto;
+}
+
+.description h2 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.description h4 {
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+}
+
+.tea {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: auto;
+    margin: 50px auto;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.header-tea {
+    margin: 20px;
+}
+
+.header-tea h2 {
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container figcaption {
+    margin: 20px;
+}
+
+.location-example {
+    background-image: url("../images/img-locations-background.jpg");
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-shrink: 0.5;
+}
+
+.location-example h2 {
+    margin-bottom: 15px;
+}
+
+#container {
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#child {
+    width: 300px;
+    height: 200px;
+    background-color: black;
+    opacity: 1;
+}
+
+#child {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.first {
+    margin-right: 40px;
+}
+
+.second {
+    margin-right: 40px;
+}
+
+#contact {
+    height: 200px;
+    width: auto;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#copyright {
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
